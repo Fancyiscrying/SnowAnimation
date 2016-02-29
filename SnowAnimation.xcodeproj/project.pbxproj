@@ -13,6 +13,8 @@
 		B14680171C84292900B180B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B14680151C84292900B180B2 /* Main.storyboard */; };
 		B14680191C84292900B180B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B14680181C84292900B180B2 /* Assets.xcassets */; };
 		B146801C1C84292900B180B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B146801A1C84292900B180B2 /* LaunchScreen.storyboard */; };
+		B14680241C84296D00B180B2 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B14680231C84296D00B180B2 /* 1.jpg */; };
+		B14680261C84297700B180B2 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B14680251C84297700B180B2 /* 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B14680181C84292900B180B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B146801B1C84292900B180B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B146801D1C84292900B180B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B14680231C84296D00B180B2 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		B14680251C84297700B180B2 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				B146800F1C84292900B180B2 /* AppDelegate.h */,
+				B14680231C84296D00B180B2 /* 1.jpg */,
 				B14680101C84292900B180B2 /* AppDelegate.m */,
+				B14680251C84297700B180B2 /* 2.png */,
 				B14680121C84292900B180B2 /* ViewController.h */,
 				B14680131C84292900B180B2 /* ViewController.m */,
 				B14680151C84292900B180B2 /* Main.storyboard */,
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B146801C1C84292900B180B2 /* LaunchScreen.storyboard in Resources */,
+				B14680241C84296D00B180B2 /* 1.jpg in Resources */,
+				B14680261C84297700B180B2 /* 2.png in Resources */,
 				B14680191C84292900B180B2 /* Assets.xcassets in Resources */,
 				B14680171C84292900B180B2 /* Main.storyboard in Resources */,
 			);
