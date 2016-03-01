@@ -39,6 +39,7 @@
     int endX= round(random() %320);
     double scale = 1/ round(random() %100) +1.0;
     double speed =1 /round(random() %100) +1.0;
+    NSLog(@"开始的坐标x:%i，结束时的坐标：%i，大小：%f,速度：%f",startX,endX,scale,speed);
     flakeview.frame = CGRectMake(startX, -100.0, 25*scale, 25*scale);
     flakeview.alpha = 0.5;
     [self.view addSubview: flakeview];
@@ -46,6 +47,7 @@
     [UIView setAnimationDuration: 10*speed];
     flakeview.frame = CGRectMake(endX, 644.0, 25* scale, 25*scale);
     [UIView commitAnimations];
+    
 }
 
 - (void)didReceiveMemoryWarning {
